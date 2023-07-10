@@ -7,6 +7,7 @@ const Error404 = () => {
     setTimeout(() => {
       navigate('/');
     }, 3000)
+     // eslint-disable-next-line
   }, [])
   return (
     <div>No Page Found, Redirecting to home page</div>
